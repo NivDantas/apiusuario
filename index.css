@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+}
+
+.vasco {
+  background-color: #000;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 30px;
+  width: 100%;
+}
+
+.div1-6blue {
+  display: inline;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    /* hide element */
+    visibility: hidden;
+  }
+}
+
+.div2 {
+  margin-top: 20px;
+  width: 1018px;
+  height: 650px;
+}
+
+video {
+  border-radius: 10px;
+}
